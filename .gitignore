@@ -1,0 +1,38 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with "go test -c"
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (Glide, dep, godep, vndr, etc.)
+vendor/
+
+# Go language server
+.vscode-go/
+
+# Build output
+build/
+
+# Go Modules
+/go.mod
+
+# Environment file
+.env
+
+# IDE files (VSCode, IntelliJ IDEA, GoLand, etc.)
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Operating System files
+*.DS_Store
+Thumbs.db
